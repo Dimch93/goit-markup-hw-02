@@ -160,7 +160,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-skyblue-color);
 }
-.footer-logo {
+.footer span {
   color: #f4f4fd;
 }
 
