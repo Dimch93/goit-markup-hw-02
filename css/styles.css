@@ -62,8 +62,8 @@ ul {
   color: var(--primary-black-color);
 }
 
-.page-nav .link:hover,
-.page-nav .link:focus {
+.page-nav:hover,
+.page-nav:focus {
   color: var(--primary-blue-color);
 }
 
