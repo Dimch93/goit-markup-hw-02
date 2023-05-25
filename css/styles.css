@@ -127,7 +127,7 @@ ul {
   background: var(--primary-blue-color);
 }
 
-.button .button-link {
+.btn .btn-link {
   cursor: pointer;
   background: #f4f4fd;
 }
