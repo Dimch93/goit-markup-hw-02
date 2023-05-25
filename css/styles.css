@@ -16,10 +16,6 @@ body {
   background-color: var(--primary-white-color);
 }
 
-ul {
-  list-style-type: none;
-}
-
 .link {
   text-decoration: none;
 }
@@ -164,7 +160,7 @@ ul {
   text-transform: uppercase;
   color: var(--primary-skyblue-color);
 }
-.footer span {
+.footer-span {
   color: #f4f4fd;
 }
 
@@ -175,22 +171,7 @@ ul {
   color: #f4f4fd;
 }
 
-.button .button-link {
-  cursor: pointer;
-  background: var(--primary-skyblue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-.btn .btn-link {
-  cursor: pointer;
-  background: #f4f4fd;
-}
-
-.btn .btn-link:hover,
-.btn .btn-link:focus {
-  background: var(--primary-blue-color);
-}
+/* -----portfolio----- */
 
 .btn-link {
   font-family: inherit;
@@ -198,8 +179,14 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-skyblue-color);
+  background: #f4f4fd;
+  cursor: pointer;
+}
+
+.btn .btn-link:hover,
+.btn .btn-link:focus {
+  color: var(--primary-white-color);
+  background: var(--primary-blue-color);
 }
