@@ -20,6 +20,20 @@ ul {
   list-style-type: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* -----------header------------ */
+
+.page-header {
+  background: var(--primary-white-color);
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -31,37 +45,47 @@ ul {
   color: var(--primary-skyblue-color);
 }
 
-.logo-link {
-  text-decoration: none;
+.logo span {
   color: var(--primary-black-color);
 }
 
-.logo .logo-link:hover,
-.logo .logo-link:hover {
+.logo span:hover,
+.logo span:focus {
   color: var(--primary-blue-color);
 }
 
-.page-header {
-  background: var(--primary-white-color);
-}
-
 .page-nav {
-  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
-  text-transform: uppercase;
 }
 
-.list {
-  text-decoration: none;
-}
-.page-nav .list:hover,
-.page-nav .list:focus {
+.page-nav .link:hover,
+.page-nav .link:focus {
   color: var(--primary-blue-color);
 }
+
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-gray-color);
+}
+
+.address .address-list:hover,
+.address .address-list:focus {
+  color: var(--primary-blue-color);
+}
+
+/* -----main----- */
+/* -----hero----- */
 
 .hero {
   background: var(--primary-black-color);
@@ -75,6 +99,25 @@ ul {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
+
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background: var(--primary-skyblue-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--primary-blue-color);
+}
+
+/* -----section Advantages----- */
 
 .section-title {
   font-weight: 700;
@@ -105,21 +148,31 @@ ul {
   background: #f4f4fd;
 }
 
-address {
-  font-style: normal;
+.employees {
+  background: var(--primary-white-color);
 }
 
-.address .address-list {
-  text-decoration: none;
+/* -----footer----- */
+
+.footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-skyblue-color);
+}
+.footer span {
+  color: #f4f4fd;
+}
+
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-gray-color);
-}
-
-.address .address-list:hover,
-.address .address-list:focus {
-  color: var(--primary-blue-color);
+  color: #f4f4fd;
 }
 
 .button .button-link {
@@ -127,23 +180,6 @@ address {
   background: var(--primary-skyblue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-
-.button-link {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  background: var(--primary-white-color);
-}
-
-.button .button-link:hover,
-.button .button-link:focus {
-  background: var(--primary-blue-color);
 }
 
 .btn .btn-link {
