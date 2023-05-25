@@ -160,7 +160,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-skyblue-color);
 }
-.footer-span {
+.footer-logo {
   color: #f4f4fd;
 }
 
@@ -173,7 +173,7 @@ body {
 
 /* -----portfolio----- */
 
-.btn-link {
+.btn {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -185,8 +185,8 @@ body {
   cursor: pointer;
 }
 
-.btn .btn-link:hover,
-.btn .btn-link:focus {
+.btn:hover,
+.btn:focus {
   color: var(--primary-white-color);
   background: var(--primary-blue-color);
 }
