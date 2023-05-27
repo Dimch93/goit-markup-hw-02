@@ -5,6 +5,7 @@
   --primary-skyblue-color: #4d5ae5;
   --primary-black-color: #2e2f42;
   --primary-blue-color: #404bbf;
+  --primary-white1-color: #f4f4fd;
 }
 
 body {
@@ -87,7 +88,6 @@ body {
 }
 
 .page-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -140,7 +140,7 @@ body {
 }
 
 .our-team {
-  background: #f4f4fd;
+  background: var(--primary-white1-color);
 }
 
 .employees {
@@ -166,7 +166,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--primary-white1-color);
 }
 
 /* -----portfolio----- */
@@ -179,7 +179,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-skyblue-color);
-  background: #f4f4fd;
+  background: var(--primary-white1-color);
   cursor: pointer;
 }
 
